@@ -1,4 +1,4 @@
-package com.example.microservice_two;
+package com.example.LearningJava.SharedResourceExample;
 
 import lombok.Data;
 
@@ -9,7 +9,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public class SharedResource {
     Lock lock = new ReentrantLock();
     Lock lock1 = new ReentrantLock();
-   private int resource =0;
+    private int resource = 0;
 
     public void increment() {
         System.out.println(Thread.currentThread().getName());

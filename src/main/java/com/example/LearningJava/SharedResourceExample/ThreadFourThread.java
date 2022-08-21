@@ -1,4 +1,4 @@
-package com.example.microservice_two;
+package com.example.LearningJava.SharedResourceExample;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

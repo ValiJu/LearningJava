@@ -1,4 +1,4 @@
-package com.example.microservice_two;
+package com.example.LearningJava.SharedResourceExample;
 
 public class RunClass {
     public static void main(String[] args) throws InterruptedException {

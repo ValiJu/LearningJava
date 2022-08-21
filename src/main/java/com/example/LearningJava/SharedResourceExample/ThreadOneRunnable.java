@@ -1,7 +1,7 @@
-package com.example.microservice_two;
+package com.example.LearningJava.SharedResourceExample;
 
 import lombok.Data;
-import org.springframework.beans.factory.annotation.Autowired;
+
 @Data
 public class ThreadOneRunnable implements Runnable{
 
